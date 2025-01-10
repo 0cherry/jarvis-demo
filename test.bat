@@ -1,1 +1,1 @@
-test.exe
+@rem test.exe
