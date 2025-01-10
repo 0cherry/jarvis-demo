@@ -10,6 +10,7 @@ int test1603(int x)
 		break;
 	case 3:	
 		x--;
+	case 4:
 	default:
 	    ;
 	}
