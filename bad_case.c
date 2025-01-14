@@ -9,7 +9,8 @@ int test1603(int x)
 		x++;
 		break;
 	default:
-	    ;
+        // Original code had a no-op here with a semicolon
+        break;  // Adding a break statement to conform to MISRA C rule 16.3
 	}
 
 	return x;
