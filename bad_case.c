@@ -9,7 +9,8 @@ int test1603(int x)
 		x++;
 		break;
 	default:
-	    ;
+        ;   // No action needed, but still requires a break statement
+        break;
 	}
 
 	return x;
