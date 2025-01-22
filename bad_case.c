@@ -9,7 +9,7 @@ int test1603(int x)
 		x++;
 		break;
 	default:
-	    ;
+        break; /* Added break to comply with MISRA rule */
 	}
 
 	return x;
