@@ -9,7 +9,7 @@ int test1603(int x)
 		x++;
 		break;
 	default:
-	    ;
+		break;
 	}
 
 	return x;
